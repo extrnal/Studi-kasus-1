@@ -51,3 +51,41 @@ switch(wrg.paket)
 		wrg.diskon=0;
 	}
   wrg.total=wrg.biaya-wrg.diskon;
+	cout<<"========================="<<endl;
+	cout<<"    KEDAI AYAM X     "<<endl;
+	cout<<"========================="<<endl;
+	cout<<endl;
+
+	cout<<"RINCIAN PEMBAYARAN:      "<<endl;
+	cout<<"Menu             = "<<wrg.paket<<endl;
+	cout<<"Jumlah           = "<<wrg.jumlah;
+	cout<<endl;
+	cout<<"                 ------------ x"<<endl;
+	cout<<"Biaya            = "<<wrg.biaya<<endl;
+	cout<<"Diskon           = "<<wrg.diskon<<endl;
+	cout<<"                 ------------ -"<<endl;
+	cout<<"Grand Total      = "<<wrg.total<<endl;
+	cout<<"Bayar            = "; cin>>wrg.bayar; wrg.kembalian=wrg.bayar-wrg.total;
+	cout<<"                 --------------"<<endl;
+	cout<<"Uang Kembalian   = "<<wrg.kembalian<<endl;
+	
+  	Nota<<"========================="<<endl;
+	Nota<<"    KEDAI AYAM X     "<<endl;
+	Nota<<"========================="<<endl;
+	Nota<<endl;
+
+	Nota<<"RINCIAN PEMBAYARAN:      "<<endl;
+	Nota<<"Menu             = "<<wrg.paket<<endl;
+	Nota<<"Jumlah           = "<<wrg.jumlah;
+	Nota<<endl;
+	Nota<<"                 ------------ x"<<endl;
+	Nota<<"Biaya            = "<<wrg.biaya<<endl;
+	Nota<<"Diskon           = "<<wrg.diskon<<endl;
+	Nota<<"                 ------------ -"<<endl;
+	Nota<<"Grand Total      = "<<wrg.total<<endl;
+	Nota<<"Bayar            = "<<wrg.bayar<<endl;
+	Nota<<"                 --------------"<<endl;
+	Nota<<"Uang Kembalian   = "<<wrg.kembalian<<endl;
+		fclose (pFile);
+  getch();
+}
