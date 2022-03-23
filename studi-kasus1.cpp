@@ -28,3 +28,6 @@ int main(){
 		cout << Menu[i] << endl;
 	}
 	cout<<endl<<endl;
+
+	cout<<"Pilih Menu [ A/B ] = "; cin>>wrg.paket;
+	cout<<"Jumlah          = "; cin>>wrg.jumlah;
