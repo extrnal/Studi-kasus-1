@@ -1,0 +1,15 @@
+=========================
+    KEDAI AYAM X     
+=========================
+
+RINCIAN PEMBAYARAN:      
+Menu             = a
+Jumlah           = 10
+                 ------------ x
+Biaya            = 170000
+Diskon           = 17000
+                 ------------ -
+Grand Total      = 153000
+Bayar            = 160000
+                 --------------
+Uang Kembalian   = 7000
