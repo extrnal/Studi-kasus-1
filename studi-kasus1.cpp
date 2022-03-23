@@ -31,3 +31,23 @@ int main(){
 
 	cout<<"Pilih Menu [ A/B ] = "; cin>>wrg.paket;
 	cout<<"Jumlah          = "; cin>>wrg.jumlah;
+switch(wrg.paket)
+	{
+		case 'A':
+    	case 'a'  :
+    		wrg.harga=17000;
+    break;
+   		case 'B':
+    	case 'b'   :
+    		wrg.harga=21000;
+    break;
+  }
+
+  wrg.biaya = tot (wrg.harga, wrg.jumlah);
+  
+  	if (wrg.biaya>=45000){
+		wrg.diskon=0.1*wrg.biaya;
+	}else {
+		wrg.diskon=0;
+	}
+  wrg.total=wrg.biaya-wrg.diskon;
